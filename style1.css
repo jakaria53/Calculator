@@ -10,6 +10,7 @@ input[type="button"] {
     border-radius: 10px;
     padding: 10px 20px; 
     font-size: 18px; 
+    cursor: pointer;
 }
 
 #a {
@@ -23,24 +24,24 @@ input[type="button"] {
 }
 
 .box {
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     padding: 70px 100px;
     border-radius: 10px;
     border: 5px solid #0ee6d4;
 }
 
-/* 📱 Mobile (max-width: 600px) */
+/* --------- 📱 Mobile Devices (max-width: 600px) --------- */
 @media screen and (max-width: 600px) {
     body {
-        padding: 20px;  
+        padding: 20px; 
     }
 
     .box {
-        padding: 20px;
+        padding: 20px; 
     }
 
     input[type="button"] {
-        width: 100%;  
+        width: 100%;   
         height: 50px;
         font-size: 16px;
     }
@@ -50,7 +51,7 @@ input[type="button"] {
     }
 }
 
-/* 💻 Tablet (601px - 1024px) */
+/* --------- 💻 Tablets (601px - 1024px) --------- */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
     body {
         padding: 30px 100px; 
@@ -71,7 +72,7 @@ input[type="button"] {
     }
 }
 
-/* 🖥️ Desktop (above 1024px) */
+/* --------- 🖥️ Desktops (above 1024px) --------- */
 @media screen and (min-width: 1025px) {
     body {
         padding: 50px 450px; 
@@ -82,7 +83,7 @@ input[type="button"] {
     }
 
     input[type="button"] {
-        width: 120px;
+        width: 100px;
         height: 60px;
         font-size: 18px;
     }
