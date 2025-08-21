@@ -28,3 +28,66 @@ input[type="button"] {
     border-radius: 10px;
     border: 5px solid #0ee6d4;
 }
+
+/* 📱 Mobile (max-width: 600px) */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 20px;  
+    }
+
+    .box {
+        padding: 20px;
+    }
+
+    input[type="button"] {
+        width: 100%;  
+        height: 50px;
+        font-size: 16px;
+    }
+
+    #a {
+        font-size: 14px;
+    }
+}
+
+/* 💻 Tablet (601px - 1024px) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        padding: 30px 100px; 
+    }
+
+    .box {
+        padding: 40px;
+    }
+
+    input[type="button"] {
+        width: 150px;
+        height: 55px;
+        font-size: 17px;
+    }
+
+    #a {
+        font-size: 16px;
+    }
+}
+
+/* 🖥️ Desktop (above 1024px) */
+@media screen and (min-width: 1025px) {
+    body {
+        padding: 50px 450px; 
+    }
+
+    .box {
+        padding: 70px 100px;
+    }
+
+    input[type="button"] {
+        width: 120px;
+        height: 60px;
+        font-size: 18px;
+    }
+
+    #a {
+        font-size: 18px;
+    }
+}
