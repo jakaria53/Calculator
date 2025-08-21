@@ -1,5 +1,5 @@
 body {
-    padding: 50px 450px;
+    padding: 50px 500px;
     background-color: #f1f1f1;
 }
 
@@ -75,7 +75,7 @@ input[type="button"] {
 /* --------- 🖥️ Desktops (above 1024px) --------- */
 @media screen and (min-width: 1025px) {
     body {
-        padding: 50px 450px; 
+        padding: 50px 350px; 
     }
 
     .box {
